@@ -1,0 +1,135 @@
+{
+  // Place your settings in this file to overwrite the default settings
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.detectIndentation": true,
+  "editor.lightbulb.enabled": true,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.rulers": [80],
+  "editor.snippetSuggestions": "top",
+  "editor.wordBasedSuggestions": true,
+  "editor.suggest.localityBonus": true,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.suggestSelection": "recentlyUsed",
+    "editor.suggest.showKeywords": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.suggestSelection": "recentlyUsed",
+    "editor.suggest.showKeywords": true
+  },
+  "editor.fontSize": 14,
+  "editor.tabSize": 2,
+  "editor.hover.enabled": true,
+  "editor.renderWhitespace": "boundary",
+  "editor.glyphMargin": false,
+  "editor.folding": false,
+  "files.exclude": {
+    "USE_GITIGNORE": true
+  },
+  "files.associations": {
+    "*.md": "mdx"
+  },
+  "files.defaultLanguage": "{activeEditorLanguage}",
+  "javascript.suggest.autoImports": true,
+  "javascript.validate.enable": true,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/coverage": true,
+    "**/dist": true,
+    "**/build": true,
+    "**/.build": true,
+    "**/.gh-pages": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": false
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "eslint.options": {
+    "env": {
+      "browser": true,
+      "jest/globals": true,
+      "es6": true,
+      "es12": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 2022,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "rules": {
+      "no-debugger": "off"
+    }
+  },
+  "terminal.integrated.shellIntegration.decorationsEnabled": "both",
+  "terminal.integrated.shellIntegration.decorationIcon": "circle-outline",
+  "terminal.integrated.shellIntegration.decorationIconSuccess": "primitive-dot",
+  "terminal.integrated.shellIntegration.decorationIconError": "error-small",
+  "terminal.integrated.scrollback": 10000,
+  "explorer.openEditors.visible": 0,
+  "editor.lineNumbers": "on",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.sideBar.location": "left",
+  "workbench.startupEditor": "none",
+  "workbench.panel.defaultLocation": "right",
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.perEditorGroup": false,
+  "workbench.editor.limit.value": 18,
+  "debug.javascript.codelens.npmScripts": "never",
+  "breadcrumbs.enabled": true,
+  "grunt.autoDetect": "off",
+  "npm.runSilent": true,
+  "gulp.autoDetect": "off",
+  "explorer.confirmDragAndDrop": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.formatOnPaste": false,
+  "editor.minimap.enabled": false,
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.smoothScrolling": true,
+  "php.suggest.basic": false,
+  "typescript.suggest.autoImports": false,
+  "editor.suggestSelection": "first",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "eslint.packageManager": "npm",
+  "npm.packageManager": "npm",
+  "prettier.bracketSpacing": false,
+  "prettier.proseWrap": "always",
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+  "prettier.arrowParens": "avoid",
+  "prettier.useEditorConfig": false,
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": []
+  },
+  "workbench.colorTheme": "Night Owl",
+  "terminal.integrated.fontFamily": "Fira Code",
+  "files.autoSave": "afterDelay",
+  "editor.cursorBlinking": "blink",
+  "window.zoomLevel": 1,
+  "workbench.colorCustomizations" : {
+    "terminal.foreground" : "#16c9ed", //skyblue
+    // "terminal.foreground" : "#16ed70",//green
+    // "terminal.background" : "#08102d",
+    "terminalCommandDecoration.successBackground": "#00ff1e",
+    "terminalCommandDecoration.defaultBackground": "#f2ff00",
+    "terminalCommandDecoration.errorBackground": "#ff0000",
+    "terminal.findMatchBackground": "#f2ff00",
+    "terminal.findMatchHighlightBackground": "#ffbb00dd",
+    // "editorCursor.foreground": "#ffae00",
+}
+}
